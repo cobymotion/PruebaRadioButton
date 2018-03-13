@@ -52,6 +52,8 @@ public class MainActivity extends AppCompatActivity {
             num1 = num1 + num2;
         else if(rdResta.isChecked())
             num1 = num1 - num2;
+        else if(rdMultiplicacion.isChecked())
+            num1 = num1 * num2;
         txtResultado.setText("Resultado:" + num1 );
     }
 
